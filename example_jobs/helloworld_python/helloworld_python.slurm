@@ -14,11 +14,8 @@ module load centos7.3/comp/python/3.6.5-gcc
 virtualenv --no-download $HOME/virtualspace/venv
 source $HOME/virtualspace/venv/bin/activate
 
-#upgrade pip
-pip install --upgrade pip
-
 #install packages
-pip install ./requirements.txt
+pip install -r ./requirements.txt
 
 python ./main.py
 

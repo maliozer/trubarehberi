@@ -11,7 +11,7 @@ print(sys.version, __name__)
 numbers = np.array([1, 2, 3])
 print(numbers)
 
-for x in tqmd(range(100000)):
+for x in tqdm(range(100000)):
     pass
 
 print("END OF JOB!")
